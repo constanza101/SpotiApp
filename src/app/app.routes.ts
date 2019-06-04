@@ -9,4 +9,4 @@ export const ROUTES: Routes = [
     {path: 'search', component: SearchComponent},
     {path: '', pathMatch: 'full', redirectTo: 'home'},
     {path: '**', pathMatch: 'full', redirectTo: 'home'},
-]
+];
